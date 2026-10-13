@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudyBridge</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>StudyBridge</h1>
+    <p class="sub">Cross-border &amp; student finance assistant <span class="badge">SANDBOX</span></p>
+  </header>
+  <main>
+    <section class="panel" aria-label="Wallet">
+      <h2>Wallet</h2>
+      <div id="owner"></div>
+      <ul id="balances"></ul>
+      <div id="total"></div>
+      <div id="tier"></div>
+      <h3>Saved beneficiaries</h3>
+      <ul id="beneficiaries"></ul>
+      <button id="verify" type="button">Verify audit log</button>
+      <div id="verify-result"></div>
+      <h3>Try</h3>
+      <ul id="examples"></ul>
+    </section>
+    <section class="panel chat" aria-label="Chat">
+      <div id="log" aria-live="polite"></div>
+      <form id="form">
+        <input id="msg" autocomplete="off" placeholder="e.g. compare the cheapest way to send 50000 BDT to CNY" maxlength="1000">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

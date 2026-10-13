@@ -1,0 +1,35 @@
+{
+  "run_id": "run_20261013_221103",
+  "version": "0.1.0",
+  "planner_date": "2026-10-13",
+  "llm": "qwen2.5:7b",
+  "counts": {
+    "requests": 14,
+    "blocked": 5,
+    "pending": 3,
+    "executed": 2,
+    "cancelled": 1,
+    "guard_removed": 3
+  },
+  "balances_before": {
+    "BDT": "520000.00",
+    "CNY": "3200.00",
+    "USD": "150.00"
+  },
+  "balances_after": {
+    "BDT": "399907.09",
+    "CNY": "4346.22",
+    "USD": "150.00"
+  },
+  "audit_verification": {
+    "ok": true,
+    "records": 64,
+    "broken_at": null
+  },
+  "tamper_test_on_copy": {
+    "ok": false,
+    "records": 37,
+    "broken_at": 37
+  },
+  "python": "3.14.7"
+}

@@ -1,0 +1,46 @@
+test_established (tests.test_core.TestCredit.test_established) ... ok
+test_high_utilisation_flagged (tests.test_core.TestCredit.test_high_utilisation_flagged) ... ok
+test_thin_file (tests.test_core.TestCredit.test_thin_file) ... ok
+test_rejects_non_positive (tests.test_core.TestFx.test_rejects_non_positive) ... ok
+test_spread_applied (tests.test_core.TestFx.test_spread_applied) ... ok
+test_aliases (tests.test_core.TestMoney.test_aliases) ... ok
+test_cross_rate (tests.test_core.TestMoney.test_cross_rate) ... ok
+test_corridor_and_max_limits (tests.test_core.TestRemittance.test_corridor_and_max_limits) ... ok
+test_deadline_filters_slow_provider (tests.test_core.TestRemittance.test_deadline_filters_slow_provider) ... ok
+test_inverse_is_exact (tests.test_core.TestRemittance.test_inverse_is_exact) ... ok
+test_ranked_by_recipient_amount (tests.test_core.TestRemittance.test_ranked_by_recipient_amount) ... ok
+test_covered (tests.test_core.TestTuition.test_covered) ... ok
+test_funding_gap (tests.test_core.TestTuition.test_funding_gap) ... ok
+test_on_track_four_tranches (tests.test_core.TestTuition.test_on_track_four_tranches) ... ok
+test_urgent_and_overdue (tests.test_core.TestTuition.test_urgent_and_overdue) ... ok
+test_chain_and_tamper (tests.test_security.TestAudit.test_chain_and_tamper) ... ok
+test_masking (tests.test_security.TestAudit.test_masking) ... ok
+test_cancel (tests.test_security.TestConfirmationFlow.test_cancel) ... ok
+test_expired (tests.test_security.TestConfirmationFlow.test_expired) ... ok
+test_idempotency (tests.test_security.TestConfirmationFlow.test_idempotency) ... ok
+test_insufficient_balance (tests.test_security.TestConfirmationFlow.test_insufficient_balance) ... ok
+test_prepare_then_confirm_then_replay (tests.test_security.TestConfirmationFlow.test_prepare_then_confirm_then_replay) ... ok
+test_tier_rechecked_at_confirmation (tests.test_security.TestConfirmationFlow.test_tier_rechecked_at_confirmation) ... ok
+test_unsaved_beneficiary_refused (tests.test_security.TestConfirmationFlow.test_unsaved_beneficiary_refused) ... ok
+test_amount_grounding (tests.test_security.TestGuardUnit.test_amount_grounding) ... ok
+test_amount_reported_as_percentage_cut (tests.test_security.TestGuardUnit.test_amount_reported_as_percentage_cut) ... ok
+test_forbidden_terms_cut (tests.test_security.TestGuardUnit.test_forbidden_terms_cut) ... ok
+test_rounding_tolerated (tests.test_security.TestGuardUnit.test_rounding_tolerated) ... ok
+test_unknown_date_cut (tests.test_security.TestGuardUnit.test_unknown_date_cut) ... ok
+test_wrong_currency_label_cut (tests.test_security.TestGuardUnit.test_wrong_currency_label_cut) ... ok
+test_detector (tests.test_security.TestInjection.test_detector) ... ok
+test_direct_injection_blocks_money_movement (tests.test_security.TestInjection.test_direct_injection_blocks_money_movement) ... ok
+test_memo_injection_reported_not_followed (tests.test_security.TestInjection.test_memo_injection_reported_not_followed) ... ok
+test_send_everything_refused (tests.test_security.TestInjection.test_send_everything_refused) ... ok
+test_guard_cuts_invented_number (tests.test_security.TestLLMHardening.test_guard_cuts_invented_number) ... ok
+test_hallucinated_amount_dropped (tests.test_security.TestLLMHardening.test_hallucinated_amount_dropped) ... ok
+test_llm_cannot_create_money_movement_alone (tests.test_security.TestLLMHardening.test_llm_cannot_create_money_movement_alone) ... ok
+test_llm_offline_falls_back (tests.test_security.TestLLMHardening.test_llm_offline_falls_back) ... ok
+test_limits (tests.test_security.TestPermissions.test_limits) ... ok
+test_tier_blocks_money_movement (tests.test_security.TestPermissions.test_tier_blocks_money_movement) ... ok
+test_unknown_tool_denied (tests.test_security.TestPermissions.test_unknown_tool_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.117s
+
+OK
